@@ -7,11 +7,11 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
-  inputs.src-iterrr-main.flake = false;
-  inputs.src-iterrr-main.owner = "hamidb80";
-  inputs.src-iterrr-main.ref   = "main";
-  inputs.src-iterrr-main.repo  = "iterrr";
-  inputs.src-iterrr-main.type  = "github";
+  inputs.src-iterrr-0_1_0.flake = false;
+  inputs.src-iterrr-0_1_0.owner = "hamidb80";
+  inputs.src-iterrr-0_1_0.ref   = "0_1_0";
+  inputs.src-iterrr-0_1_0.repo  = "iterrr";
+  inputs.src-iterrr-0_1_0.type  = "github";
   
   inputs."macroplus".owner = "nim-nix-pkgs";
   inputs."macroplus".ref   = "master";
@@ -24,10 +24,10 @@
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
     lib  = flakeNimbleLib.lib;
-    args = ["self" "nixpkgs" "flakeNimbleLib" "src-iterrr-main"];
+    args = ["self" "nixpkgs" "flakeNimbleLib" "src-iterrr-0_1_0"];
   in lib.mkRefOutput {
     inherit self nixpkgs ;
-    src  = deps."src-iterrr-main";
+    src  = deps."src-iterrr-0_1_0";
     deps = builtins.removeAttrs deps args;
     meta = builtins.fromJSON (builtins.readFile ./meta.json);
   };
