@@ -217,11 +217,11 @@
     "src-iterrr-main": {
       "flake": false,
       "locked": {
-        "lastModified": 1648046224,
-        "narHash": "sha256-Vw8sx0lX31ws84rOxbPgjAMUVnL7MNpM+jbTG8yVvME=",
+        "lastModified": 1648139872,
+        "narHash": "sha256-mwzUbCIjVoLLPQ/M/40Y7hoJHMrDRKNHfmWoJoG+aME=",
         "owner": "hamidb80",
         "repo": "iterrr",
-        "rev": "f879e0d7c73332841d0637f153ad70894fc6e345",
+        "rev": "a5d2b7ccdaf022239bba8f33f16d8fafa6a2519f",
         "type": "github"
       },
       "original": {
