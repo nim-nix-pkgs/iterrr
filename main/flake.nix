@@ -11,7 +11,6 @@
   inputs.src-iterrr-main.ref   = "refs/heads/main";
   inputs.src-iterrr-main.owner = "hamidb80";
   inputs.src-iterrr-main.repo  = "iterrr";
-  inputs.src-iterrr-main.dir   = "";
   inputs.src-iterrr-main.type  = "github";
   
   inputs."macroplus".owner = "nim-nix-pkgs";
