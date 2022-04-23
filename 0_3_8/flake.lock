@@ -64,22 +64,22 @@
         "flakeNimbleLib": "flakeNimbleLib",
         "macroplus": "macroplus",
         "nixpkgs": "nixpkgs",
-        "src-iterrr-main": "src-iterrr-main"
+        "src-iterrr-0_3_8": "src-iterrr-0_3_8"
       }
     },
-    "src-iterrr-main": {
+    "src-iterrr-0_3_8": {
       "flake": false,
       "locked": {
-        "lastModified": 1650748065,
-        "narHash": "sha256-doCW1CdxdQjjl+p3oHjnLIRTXsUCvmSp/BVuWFf8BMI=",
+        "lastModified": 1648575210,
+        "narHash": "sha256-ETXny0WMxY/PZuG0fEmzNzlybOUFmQ+ekDHK7VeRW0I=",
         "owner": "hamidb80",
         "repo": "iterrr",
-        "rev": "93db2da934b9df5b55c8307874efbffe8eefc728",
+        "rev": "75c629d2415628d0e62ff320f31e02a3d2426034",
         "type": "github"
       },
       "original": {
         "owner": "hamidb80",
-        "ref": "refs/heads/main",
+        "ref": "refs/tags/0.3.8",
         "repo": "iterrr",
         "type": "github"
       }
