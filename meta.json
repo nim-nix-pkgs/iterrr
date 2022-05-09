@@ -7,7 +7,7 @@
   "license": "MIT",
   "web": "https://github.com/hamidb80/steps",
   "refs": [
-    "fatal: unable to access 'https://github.com/hamidb80/iterrr/': Could not resolve host: github.com",
+    "fatal: unable to access 'https://github.com/hamidb80/iterrr/': HTTP/2 stream 1 was not closed cleanly before end of the underlying stream",
     ""
   ],
   "heads": []
