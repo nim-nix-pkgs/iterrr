@@ -33,11 +33,11 @@
       },
       "locked": {
         "dir": "0_2_3",
-        "lastModified": 1662254595,
-        "narHash": "sha256-/QhpD95L8h9/CJq/bUvLtyIzLJ6cc73GimjRPQqA6uA=",
+        "lastModified": 1667322417,
+        "narHash": "sha256-5zWi/Yq2JJVis+UGgTCjjnBc3hLqlpkZrlGRBE3e3vI=",
         "owner": "nim-nix-pkgs",
         "repo": "macroplus",
-        "rev": "4f0cc36afe559f4a6e427d2777047d0ac5690b6c",
+        "rev": "e7f479945f39f98d33688349fbd22ffc5a0a1708",
         "type": "github"
       },
       "original": {
@@ -50,11 +50,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1662096612,
-        "narHash": "sha256-R+Q8l5JuyJryRPdiIaYpO5O3A55rT+/pItBrKcy7LM4=",
+        "lastModified": 1667110639,
+        "narHash": "sha256-4FbPESZ5LbqQxkJJJBAfk/zKgF9h/4kyUwjjpJwYlbc=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "21de2b973f9fee595a7a1ac4693efff791245c34",
+        "rev": "f38a1f04d1bec1feb61fd101a0539ae2002a7087",
         "type": "github"
       },
       "original": {
@@ -73,11 +73,11 @@
     "src-iterrr-main": {
       "flake": false,
       "locked": {
-        "lastModified": 1660574259,
-        "narHash": "sha256-zO1D1la57EEnSOHEeIQubUSlTf8yGm6jQ3Sqf5BjXwI=",
+        "lastModified": 1662663354,
+        "narHash": "sha256-Y+AAws9OYtoLuBAMVdmteQQZWLsXjZGKjv4IOzs94Qc=",
         "owner": "hamidb80",
         "repo": "iterrr",
-        "rev": "6aa7a5ca9d8c6f6684a05c5c4938b5c7edeb7026",
+        "rev": "4145eb9cb44cf09775505b3d5f8eb892da39402b",
         "type": "github"
       },
       "original": {
